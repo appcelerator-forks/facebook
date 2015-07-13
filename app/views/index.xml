@@ -1,0 +1,42 @@
+<Alloy>
+	<NavigationWindow id="navMenu" platform="ios">
+	    <Window id="win">
+	    	<View id="titleContainer">
+	    		<Label id="title">Homepage</Label>
+	    	</View>
+	    	<View id="menu">
+	    		<!--<Label mod="0" onTouchend="goSlide" class="menuItem">Homepage</Label>
+	    		<Label mod="1" onTouchend="goSlide" class="menuItem">Category</Label>
+	    		<Label mod="2" onTouchend="goSlide" class="menuItem">Search</Label>-->
+	    		<ImageView backgroundColor="rgba(255,0,0,255)" mod="0" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+	    		<ImageView mod="1" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+	    		<ImageView mod="2" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+	    	</View>
+	    	<View id="hover" />
+	        <ScrollableView id="scrollableView" disableBounce="true" showPagingControl="false">
+	        	<Require src="s_home"/>
+	        	<Require src="s_category"/>
+	        	<Require src="s_search"/>
+	        </ScrollableView>
+	    </Window>
+    </NavigationWindow>
+    <Window id="win" platform="android">
+    	<View id="titleContainer">
+    		<Label id="title">Homepage</Label>
+    	</View>
+    	<View id="menu">
+    		<!--<Label mod="0" onTouchend="goSlide" class="menuItem">Homepage</Label>
+    		<Label mod="1" onTouchend="goSlide" class="menuItem">Category</Label>
+    		<Label mod="2" onTouchend="goSlide" class="menuItem">Search</Label>-->
+    		<ImageView backgroundColor="rgba(255,0,0,255)" mod="0" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+    		<ImageView mod="1" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+    		<ImageView mod="2" onTouchend="goSlide" class="menuItem" image="/icons1.png"></ImageView>
+    	</View>
+    	<View id="hover" />
+        <ScrollableView id="scrollableView" disableBounce="true" showPagingControl="false">
+        	<Require src="s_home"/>
+        	<Require src="s_category"/>
+        	<Require src="s_search"/>
+        </ScrollableView>
+    </Window>
+</Alloy>

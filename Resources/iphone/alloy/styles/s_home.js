@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0001,"key":"Label","style":{color:"#000",font:{fontSize:"14dp",fontFamily:"Helvetica Neue",},}},{"isApi":true,"priority":1000.0002,"key":"TableViewRow","style":{color:"#000",top:"10dp",bottom:"10dp",}},{"isApi":true,"priority":1000.0003,"key":"ScrollView","style":{backgroundColor:"#ff00000",}}];

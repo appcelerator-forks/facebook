@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="search" backgroundColor="#ddd">
+		<Button width="80%" height="20" onClick="open_scrollable_flip">Scrollable Flip</Button>
+	</View>
+</Alloy>

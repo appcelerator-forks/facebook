@@ -1,0 +1,7 @@
+<Alloy>
+    <Window id="win" navBarHidden="false" title="Scrollable Flip" backButtonTitle="" tabBarHidden="false">
+    	<View id="search" backgroundColor="#ddd">
+			<Label>Scrollable Flip</Label>
+		</View>
+    </Window>
+</Alloy>

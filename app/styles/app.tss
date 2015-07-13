@@ -1,0 +1,15 @@
+"Label": {
+	color: "#000",
+	font: {
+		fontSize: '14dp',
+		fontFamily: 'Helvetica Neue'
+	},
+},
+"TableViewRow": {
+	color: "#000",
+	top: "10dp",
+	bottom: "10dp",
+},
+"ScrollView":{
+	backgroundColor: "#ff00000",
+}
